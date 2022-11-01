@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Smarty Street</label>
+    <protected>false</protected>
+    <values>
+        <field>Auth_Id__c</field>
+        <value xsi:type="xsd:string">f897807e-11de-0b69-acfe-7abf6aa27aa3</value>
+    </values>
+    <values>
+        <field>Auth_Token__c</field>
+        <value xsi:type="xsd:string">YgBsfgdU2ETi37So5I2x</value>
+    </values>
+    <values>
+        <field>EndPoint__c</field>
+        <value xsi:type="xsd:string">https://us-street.api.smartystreets.com/street-address</value>
+    </values>
+</CustomMetadata>
