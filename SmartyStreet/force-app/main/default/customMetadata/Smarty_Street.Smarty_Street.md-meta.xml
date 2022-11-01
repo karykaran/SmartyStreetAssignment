@@ -4,11 +4,11 @@
     <protected>false</protected>
     <values>
         <field>Auth_Id__c</field>
-        <value xsi:type="xsd:string">f897807e-11de-0b69-acfe-7abf6aa27aa3</value>
+        <value xsi:type="xsd:string">hidden for security purpose</value>
     </values>
     <values>
         <field>Auth_Token__c</field>
-        <value xsi:type="xsd:string">YgBsfgdU2ETi37So5I2x</value>
+        <value xsi:type="xsd:string">hidden for security purpose</value>
     </values>
     <values>
         <field>EndPoint__c</field>
