@@ -26,9 +26,7 @@ public with sharing class EventTriggerHandler {
         List<Event> eventList = new List<Event>();
         Integer index = 0;
         for(Event evt : [SELECT Id,Location FROM Event WHERE Id IN:eventIdSet]){
-            BodyWrapper ssw = new BodyWrapper();
-            ssw.Street = evt.Location;
-            bodyWrapperList.add(ssw);
+            bodyWrapperList.add(new BodyWrapper(evt.Location));
             indexToEventIdMap.put(index++,evt.Id);
         }
         String endPoint = Smarty_Street__mdt.getInstance('Smarty_Street').EndPoint__c +
@@ -63,5 +61,8 @@ public with sharing class EventTriggerHandler {
 
     public class BodyWrapper{
         public String Street;
+        public BodyWrapper(String Street){
+            this.Street = Street;
+        }
     }
 }
